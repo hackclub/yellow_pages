@@ -1,4 +1,6 @@
 ---
+- network_id: "1234567890"
+  name: Rocket Rides # This is a test merchant
 - network_ids:
     - "235251000762203"
     - "372181910889"
