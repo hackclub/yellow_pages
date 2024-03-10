@@ -1,218 +1,225 @@
 ---
-- network_ids: ["235251000762203", "372181910889", "784959000762203", "372176393885", "089047000762203", "007671000156182"]
+- network_ids:
+    - "235251000762203"
+    - "372181910889"
+    - "784959000762203"
+    - "372176393885"
+    - "089047000762203"
+    - "007671000156182"
   name: Amazon
 - network_ids: ["000445197950998"]
   name: Uber
-- network_id: 000174030072998 # This is PayPal, usually transactions to individuals
+- network_id: "000174030072998" # This is PayPal, usually transactions to individuals
 - network_id: ["242661000053360", "242632000053360"] # this is Square, which has multiple vendors
   # Here is an example name and how to humanize it "SQ *AHLI BABAS KABOB SHOP" -> "Square: Ahli Babas Kabob Shop"
-- network_id: T8LQCJF1R5GHLTR
-  name: Digital Ocean
-- network_id: 000445515396999
+- network_id: "T8LQCJF1R5GHLTR"
+  name: DigitalOcean
+- network_id: "000445515396999"
   name: Uber Eats
-- network_id: 000174030076999 # This is PayPal, usually transactions to businesses
-- network_id: 000445532591994
+- network_id: "000174030076999" # This is PayPal, usually transactions to businesses
+- network_id: "000445532591994"
   name: Pirate Ship
-- network_id: 000445385180994
+- network_id: "000445385180994"
   name: Lyft
-- network_id: ["248754000103177", "17188425", "420429000211313", "089062000854521"]
+- network_id:
+    ["248754000103177", "17188425", "420429000211313", "089062000854521"]
   name: Google Cloud & Domains
-- network_id: 420429000200589
+- network_id: "420429000200589"
   name: Facebook
-- network_id: JNFNPXAA0DZETZY
+- network_id: "JNFNPXAA0DZETZY"
   name: StickerMule
-- network_id: 00621900013RN71
+- network_id: "00621900013RN71"
   name: Shelburne Market
-- network_id: 000425250069993
+- network_id: "000425250069993"
   name: Presidential Service Award
-- network_id: 210996000015342
+- network_id: "210996000015342"
   name: United Airlines
-- network_id: ZIOVZAH4PQAVCEI
+- network_id: "ZIOVZAH4PQAVCEI"
   name: Zoom
-- network_id: 350086000284343
-  name: MTA
-- network_id: 000445488848992 # This is doordash, which has multiple vendors
-- network_id: 000445190514999 # This is 3 different companies
-- network_id: PCHKYPXKE7JJJ7G
+- network_id: "350086000284343"
+  name: New York City MTA
+- network_id: "000445488848992" # This is doordash, which has multiple vendors
+- network_id: "000445190514999" # This is 3 different companies
+- network_id: "PCHKYPXKE7JJJ7G"
   name: JLCPCB
-- network_id: ['000992203619885', '000000000525623']
+- network_id: ["000992203619885", "000000000525623"]
   name: Andy Mark
-- network_id: 000446027916993
+- network_id: "000446027916993"
   name: goBUILDA
-- network_id: IAMND6350ILIORH
+- network_id: "IAMND6350ILIORH"
   nname: Squarespace
-- network_id: 14CPM0000003735
+- network_id: "14CPM0000003735"
   name: Zomato
-- network_id: VMT200911026070
+- network_id: "VMT200911026070"
   name: PaySend
-- network_id: UDG7MDCO5H1VUKW
+- network_id: "UDG7MDCO5H1VUKW"
   name: Canva
-- network_id: 000425242858990
+- network_id: "000425242858990"
   name: Venmo
-- network_id: YODNEM7UA0WHUAV
+- network_id: "YODNEM7UA0WHUAV"
   name: Vercel
-- network_id: BIGQEGVYNMN4O0C
+- network_id: "BIGQEGVYNMN4O0C"
   name: Porkbun
-- network_id: SXONGQUGQWWJUTM
+- network_id: "SXONGQUGQWWJUTM"
   name: OpenAI
-- network_id: PL7WUQLGJ9RI3YX
+- network_id: "PL7WUQLGJ9RI3YX"
   name: Namecheap
-- network_id: 000445487534999
+- network_id: "000445487534999"
   name: VistaPrint
-- network_id: 420429000208822
+- network_id: "420429000208822"
   name: eBay
-- network_id: 000445519153990
+- network_id: "000445519153990"
   name: AirBnB
-- network_id: QLKVWDFJOCS7CNQ
+- network_id: "QLKVWDFJOCS7CNQ"
   name: Shelburne Country Store
-- network_id: 4445100183251
+- network_id: "4445100183251"
   name: Walgreens
-- network_id: 228201000213249
+- network_id: "228201000213249"
   name: Comcast
-- network_id: 84870007600474
+- network_id: "84870007600474"
   name: McMaster-Carr
-- network_id: 1VKWOGBF44BU45L
+- network_id: "1VKWOGBF44BU45L"
   name: DoorDash
-- network_id: 345002124880
+- network_id: "345002124880"
   name: Costco Wholesale
-- network_id: 000445201721997
+- network_id: "000445201721997"
   name: Heroku
-- network_id: VHEA9NFEH64WHY7 # This is stripe, but only some HCB transactions
-- network_id: 536385460049638
+- network_id: "VHEA9NFEH64WHY7" # This is stripe, but only some HCB transactions
+- network_id: "536385460049638"
   name: Adafruit
-- network_id: 17-8031944641
+- network_id: "17-8031944641"
   name: Village Wine and Coffee
-- network_id: 4445022994319
+- network_id: "4445022994319"
   name: Aubuchon Hardware
-- network_id: 000174030075991 # Not sure how to categorize this
-- network_id: 185119000762203
+- network_id: "000174030075991" # Not sure how to categorize this
+- network_id: "185119000762203"
   name: AWS
-- network_id: 371098000956037
+- network_id: "371098000956037"
   name: ShipStation
-- network_id: 000001500062369 # Bus system, maybe singapore?
-- network_id: U3MI60HFBGMF3EB
+- network_id: "000001500062369" # Bus system, maybe singapore?
+- network_id: "U3MI60HFBGMF3EB"
   name: Typeform
-- network_id: 420429000211040
+- network_id: "420429000211040"
   name: Printful
-- network_id: VHWLO7VF91VFRZF
+- network_id: "VHWLO7VF91VFRZF"
   name: Webflow
-- network_id: HECTREQUAUTMVVL
+- network_id: "HECTREQUAUTMVVL"
   name: Wix.com
-- network_id: 112127000108778
+- network_id: "112127000108778"
   name: Apple
-- network_id: 196794000194591
+- network_id: "196794000194591"
   name: Mailchimp
-- network_id: 899000000345346
+- network_id: "899000000345346"
   name: FIRST
-- network_id: 000174101940990 # Not sure how to categorize this
-- network_id: 217795000024161
+- network_id: "000174101940990" # Not sure how to categorize this
+- network_id: "217795000024161"
   name: GoodHire
-- network_id: 395700028300
+- network_id: "395700028300"
   name: GoDaddy
-- network_id: 420429000206339
+- network_id: "420429000206339"
   name: AliExpress
-- network_id: 717074000713081
+- network_id: "717074000713081"
   name: DigiKKey
-- network_id: 000000030129860 # Not sure how to categorize this
-- network_id: W9JEIROWXKO5PEO
+- network_id: "000000030129860" # Not sure how to categorize this
+- network_id: "W9JEIROWXKO5PEO"
   name: Discord
-- network_id: 067623000079893
+- network_id: "067623000079893"
   name: The New York Times
-- network_id: 219040000207048 # Not sure how to categorize this
-- network_id: PJ6EPJEEPOYQDFS
+- network_id: "219040000207048" # Not sure how to categorize this
+- network_id: "PJ6EPJEEPOYQDFS"
   name: Shippo
-- network_id: 000445537108992
+- network_id: "000445537108992"
   name: Vermont Gas
-- network_id: 325136000756346
-  name: 
-- network_id: 4445034776278
-- network_id: UWCO0DIVT3OAA9R
-- network_id: WUE8R8DSVX4EVFC
-- network_id: 38RR00000482336
-- network_id: 000445492789992
-- network_id: 337190000108778
-- network_id: 03-9508471480
-- network_id: 000445120538993
-- network_id: 000445496499994
-- network_id: 207481000119835
-- network_id: 350160000880
-- network_id: 000437200575888
-- network_id: 38RR00000519133
-- network_id: EB6ZUJWIJUWNM6H
-- network_id: 878918000156182
+- network_id: "325136000756346"
+  name:
+- network_id: "4445034776278"
+- network_id: "UWCO0DIVT3OAA9R"
+- network_id: "WUE8R8DSVX4EVFC"
+- network_id: "38RR00000482336"
+- network_id: "000445492789992"
+- network_id: "337190000108778"
+- network_id: "03-9508471480"
+- network_id: "000445120538993"
+- network_id: "000445496499994"
+- network_id: "207481000119835"
+- network_id: "350160000880"
+- network_id: "000437200575888"
+- network_id: "38RR00000519133"
+- network_id: "EB6ZUJWIJUWNM6H"
+- network_id: "878918000156182"
   name: Amazon
-- network_id: 000341163970880
+- network_id: "000341163970880"
   name: JetBlue
-- network_id: 394989000256686
-- network_id: 345160240882
+- network_id: "394989000256686"
+- network_id: "345160240882"
   name: Target
-- network_id: 4445029666487
-- network_id: PGHTNMORBEERSHB
+- network_id: "4445029666487"
+- network_id: "PGHTNMORBEERSHB"
   name: Twilio SendGrid
-- network_id: 050300000009944
+- network_id: "050300000009944"
   name: Best Buy
-- network_id: 968453000956037
+- network_id: "968453000956037"
   name: Stamps.com
-- network_id: 112137000108778
+- network_id: "112137000108778"
   name: Apple
-- network_id: 4445024897746
+- network_id: "4445024897746"
   name: Clipper
-- network_id: 452322000053360
-- network_id: 14CPM0000003736
-- network_id: 000844026101882
-- network_id: 526805
-- network_id: 4445023835264
+- network_id: "452322000053360"
+- network_id: "14CPM0000003736"
+- network_id: "000844026101882"
+- network_id: "526805"
+- network_id: "4445023835264"
 - network_id: "ZFDTOQPZON8YW7X"
-- network_id: YJAFPWST3ICXIAV
+- network_id: "YJAFPWST3ICXIAV"
   name: Instacart
-- network_id: VUWJW1EPYIK00TL
+- network_id: "VUWJW1EPYIK00TL"
   name: Printify
-- network_id: 000958206811886
+- network_id: "000958206811886"
   name: Casella Waste Systems
 - network_id: "210993000015342"
   name: United Airlines
 - network_id: "425545000167955"
   name: Hannaford
-- network_id: AH6WGZF3Y8QM8BB
-- network_id: 000445601192997
+- network_id: "AH6WGZF3Y8QM8BB"
+- network_id: "000445601192997"
   name: Zoom
-- network_id: JYTT05N3GZQUC8J
+- network_id: "JYTT05N3GZQUC8J"
   name: Heroku
-- network_id: POLKQATDE4V1NYX
+- network_id: "POLKQATDE4V1NYX"
   name: Figma
-- network_id: 012504000111695
+- network_id: "012504000111695"
   name: Lowe's
 - network_id: "4445023503995"
   name: USPS
-- network_id: 000445472871992
+- network_id: "000445472871992"
   name: Vex Robotics
-- network_id: 000445204769993
+- network_id: "000445204769993"
   name: Dialpad
 - network_id: "420429000203260"
   name: AliExpress
-- network_id: 6VQMY6JIV5D8VOU
+- network_id: "6VQMY6JIV5D8VOU"
   name: Calendly
 - network_id: "18777015"
   name: Google Cloud
-- network_id: 000445473801998
+- network_id: "000445473801998"
   name: Uber Eats
-- network_id: BUOK0IRK7MSQAJ6
+- network_id: "BUOK0IRK7MSQAJ6"
   name: Front Porch Forum
-- network_id: 06812620001RN71
+- network_id: "06812620001RN71"
   name: City Market
-- network_id: 000445517667991
+- network_id: "000445517667991"
   name: Visible
-- network_id: 03-8036071077
+- network_id: "03-8036071077"
   name: Pirate Ship
-- network_id: 5IR2QXJCAREIWRD
-- network_id: Q39I5NEONHREFYB
+- network_id: "5IR2QXJCAREIWRD"
+- network_id: "Q39I5NEONHREFYB"
 - network_id: "68880021668228"
   name: Goodwill
-- network_id: OCYSREKSTJVUPVX
+- network_id: "OCYSREKSTJVUPVX"
   name: GitHub
-- network_id: BHF6E5ONJSHHWZT
+- network_id: "BHF6E5ONJSHHWZT"
   name: 1Password
-- network_id: 000225149957998
+- network_id: "000225149957998"
 - network_ids: ["000844212028881", "ML8VGZKUUFD4FEM"]
   name: Lyft
 - network_id: "4445022836221"
@@ -221,8 +228,8 @@
   name: "American Airlines"
 - network_id: "074100000011007"
   name: FedEx
-- network_id: 053894000053360
-- network_id: 21-8031690566
+- network_id: "053894000053360"
+- network_id: "21-8031690566"
   name: Hilton Garden Inn
-- network_id: 062428000005881
+- network_id: "062428000005881"
   name: Wall Street Journal
