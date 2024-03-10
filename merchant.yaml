@@ -6,14 +6,18 @@
     - "372176393885"
     - "089047000762203"
     - "007671000156182"
+    - "878918000156182"
   name: Amazon
+  logo: "https://www.amazon.com/favicon.ico"
 - network_ids: ["000445197950998"]
   name: Uber
+  logo: "https://www.uber.com/favicon.ico"
 - network_id: "000174030072998" # This is PayPal, usually transactions to individuals
 - network_id: ["242661000053360", "242632000053360"] # this is Square, which has multiple vendors
   # Here is an example name and how to humanize it "SQ *AHLI BABAS KABOB SHOP" -> "Square: Ahli Babas Kabob Shop"
 - network_id: "T8LQCJF1R5GHLTR"
   name: DigitalOcean
+  logo: "https://www.digitalocean.com/_next/static/media/android-chrome-512x512.5f2e6221.png"
 - network_id: "000445515396999"
   name: Uber Eats
 - network_id: "000174030076999" # This is PayPal, usually transactions to businesses
@@ -48,7 +52,9 @@
   name: goBUILDA
 - network_id: "IAMND6350ILIORH"
   nname: Squarespace
-- network_id: "14CPM0000003735"
+- network_id:
+  - "14CPM0000003735"
+  - "38RR00000482336"
   name: Zomato
 - network_id: "VMT200911026070"
   name: PaySend
@@ -131,23 +137,29 @@
 - network_id: "000445537108992"
   name: Vermont Gas
 - network_id: "325136000756346"
-  name:
+  name: Intuit
 - network_id: "4445034776278"
+  name: Endicia
 - network_id: "UWCO0DIVT3OAA9R"
+  name: Shopify
 - network_id: "WUE8R8DSVX4EVFC"
-- network_id: "38RR00000482336"
-- network_id: "000445492789992"
-- network_id: "337190000108778"
+  name: Airtable
+- network_id: "000445492789992" # Instacart
 - network_id: "03-9508471480"
-- network_id: "000445120538993"
+  name: Delta # Airlines
+- network_id: "000445120538993" # Not sure how to categorize this
 - network_id: "000445496499994"
+  name: Linode
 - network_id: "207481000119835"
+  name: Green Mountain Power
 - network_id: "350160000880"
+  name: Walmart
 - network_id: "000437200575888"
+  name: Mastercard Gift Card
 - network_id: "38RR00000519133"
+  name: Swiggy
 - network_id: "EB6ZUJWIJUWNM6H"
-- network_id: "878918000156182"
-  name: Amazon
+  name: Shelburne Country Store
 - network_id: "000341163970880"
   name: JetBlue
 - network_id: "394989000256686"
@@ -160,7 +172,9 @@
   name: Best Buy
 - network_id: "968453000956037"
   name: Stamps.com
-- network_id: "112137000108778"
+- network_id: 
+  - "112137000108778"
+  - "337190000108778"
   name: Apple
 - network_id: "4445024897746"
   name: Clipper
