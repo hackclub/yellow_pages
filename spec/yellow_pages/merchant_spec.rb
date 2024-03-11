@@ -1,4 +1,3 @@
-
 RSpec.describe YellowPages::Merchant do
   it "exists" do
     expect(YellowPages::Merchant).not_to be nil
