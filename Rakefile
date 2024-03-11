@@ -3,4 +3,7 @@
 require "bundler/gem_tasks"
 require "standard/rake"
 
-task default: :standard
+require "rspec/core/rake_task"
+RSpec::Core::RakeTask.new(:spec)
+
+task default: %i[spec standard]
