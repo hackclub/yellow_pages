@@ -24,7 +24,12 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require 'yellow_pages'
+
+YellowPages::Merchant.lookup(network_id: '1234567890')
+#=> "Rocket Rides"
+```
 
 ## Development
 
