@@ -9,7 +9,17 @@ module YellowPages
       categorized_yaml_data.find do |entry|
         # Entry could be an array of strings or a string
         entry["network_id"] == network_id || entry["network_ids"]&.include?(network_id)
-      end&.dig("name")
+      end
+    end
+
+    def self.method_missing(method_name, *args, &block)
+      if /lookup_(?<key>.+)/ =~ method_name
+        lookup(network_id: args.first[:network_id])&.dig(key.to_s)
+      end
+    end
+
+    def self.respond_to_missing?(method_name, include_private = false)
+      method_name.to_s.start_with?("lookup_") || super
     end
 
     class << self

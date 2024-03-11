@@ -12,22 +12,12 @@ Add this line to your application's Gemfile:
 gem 'yellow_pages', git: 'https://github.com/hackclub/yellow_pages'
 ```
 
-<!-- TODO: Replace `UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG` with your gem name right after releasing it to RubyGems.org. Please do not do it earlier due to security reasons. Alternatively, replace this section with instructions to install your gem from git if you don't plan to release to RubyGems.org.
-
-Install the gem and add to the application's Gemfile by executing:
-
-    $ bundle add UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG
-
-If bundler is not being used to manage dependencies, install the gem by executing:
-
-    $ gem install UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG -->
-
 ## Usage
 
 ```ruby
 require 'yellow_pages'
 
-YellowPages::Merchant.lookup(network_id: '1234567890')
+YellowPages::Merchant.lookup_name(network_id: '1234567890')
 #=> "Rocket Rides"
 ```
 
