@@ -1,3 +1,5 @@
+# yaml-language-server: $schema=merchants.schema.json
+
 ---
 - network_id: "1234567890"
   name: Rocket Rides # This is a test merchant
