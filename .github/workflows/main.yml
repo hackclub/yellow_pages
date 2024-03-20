@@ -28,3 +28,12 @@ jobs:
         bundler-cache: true
     - name: Run the default task
       run: bundle exec rake
+  validate-yaml:
+    runs-on: ubuntu-latest
+    name: Validate merchants.yaml
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+      - run: npm install -g ajv-cli
+      - run: ajv -s lib/yellow_pages/merchants.schema.json -d lib/yellow_pages/merchants.yaml --errors=text
+
