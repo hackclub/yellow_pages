@@ -15,7 +15,7 @@
   name: Uber
   logo: "https://www.uber.com/favicon.ico"
 - network_id: "000174030072998" # This is PayPal, usually transactions to individuals
-- network_id: ["242661000053360", "242632000053360"] # this is Square, which has multiple vendors
+- network_ids: ["242661000053360", "242632000053360"] # this is Square, which has multiple vendors
   # Here is an example name and how to humanize it "SQ *AHLI BABAS KABOB SHOP" -> "Square: Ahli Babas Kabob Shop"
 - network_id: "T8LQCJF1R5GHLTR"
   name: DigitalOcean
@@ -27,7 +27,7 @@
   name: Pirate Ship
 - network_id: "000445385180994"
   name: Lyft
-- network_id:
+- network_ids:
     ["248754000103177", "17188425", "420429000211313", "089062000854521"]
   name: Google Cloud & Domains
 - network_id: "420429000200589"
@@ -48,13 +48,13 @@
 - network_id: "000445190514999" # This is 3 different companies
 - network_id: "PCHKYPXKE7JJJ7G"
   name: JLCPCB
-- network_id: ["000992203619885", "000000000525623"]
+- network_ids: ["000992203619885", "000000000525623"]
   name: Andy Mark
 - network_id: "000446027916993"
   name: goBUILDA
 - network_id: "IAMND6350ILIORH"
   nname: Squarespace
-- network_id:
+- network_ids:
   - "14CPM0000003735"
   - "38RR00000482336"
   name: Zomato
