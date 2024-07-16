@@ -1,5 +1,4 @@
 # yaml-language-server: $schema=merchants.schema.json
-
 ---
 - network_id: "1234567890"
   name: Rocket Rides # This is a test merchant
@@ -21,6 +20,7 @@
   # Here is an example name and how to humanize it "SQ *AHLI BABAS KABOB SHOP" -> "Square: Ahli Babas Kabob Shop"
 - network_id: "T8LQCJF1R5GHLTR"
   name: DigitalOcean
+  slug: digitalocean
   logo: "https://www.digitalocean.com/_next/static/media/android-chrome-512x512.5f2e6221.png"
 - network_id: "000445515396999"
   name: Uber Eats
@@ -57,8 +57,8 @@
 - network_id: "IAMND6350ILIORH"
   nname: Squarespace
 - network_ids:
-  - "14CPM0000003735"
-  - "38RR00000482336"
+    - "14CPM0000003735"
+    - "38RR00000482336"
   name: Zomato
 - network_id: "VMT200911026070"
   name: PaySend
@@ -176,9 +176,9 @@
   name: Best Buy
 - network_id: "968453000956037"
   name: Stamps.com
-- network_ids: 
-  - "112137000108778"
-  - "337190000108778"
+- network_ids:
+    - "112137000108778"
+    - "337190000108778"
   name: Apple
 - network_id: "4445024897746"
   name: Clipper
