@@ -1,5 +1,4 @@
 # yaml-language-server: $schema=merchants.schema.json
-
 ---
 - network_id: "1234567890"
   name: Rocket Rides # This is a test merchant
@@ -11,9 +10,10 @@
     - "089047000762203"
     - "007671000156182"
     - "878918000156182"
+    - "WNS4FM4IEVRJVP5"
   name: Amazon
   logo: "https://www.amazon.com/favicon.ico"
-- network_ids: ["000445197950998"]
+- network_ids: ["000445197950998", "020434184", "0030211548260"]
   name: Uber
   logo: "https://www.uber.com/favicon.ico"
 - network_id: "000174030072998" # This is PayPal, usually transactions to individuals
@@ -22,7 +22,7 @@
 - network_id: "T8LQCJF1R5GHLTR"
   name: DigitalOcean
   logo: "https://www.digitalocean.com/_next/static/media/android-chrome-512x512.5f2e6221.png"
-- network_id: "000445515396999"
+- network_ids: ["000445515396999", "000445473801998"]
   name: Uber Eats
 - network_id: "000174030076999" # This is PayPal, usually transactions to businesses
 - network_id: "000445532591994"
@@ -52,13 +52,13 @@
   name: JLCPCB
 - network_ids: ["000992203619885", "000000000525623"]
   name: Andy Mark
-- network_id: "000446027916993"
-  name: goBUILDA
+- network_ids: ["000446027916993", "000526448660880"]
+  name: goBILDA
 - network_id: "IAMND6350ILIORH"
-  nname: Squarespace
+  name: Squarespace
 - network_ids:
-  - "14CPM0000003735"
-  - "38RR00000482336"
+    - "14CPM0000003735"
+    - "38RR00000482336"
   name: Zomato
 - network_id: "VMT200911026070"
   name: PaySend
@@ -78,11 +78,11 @@
   name: VistaPrint
 - network_id: "420429000208822"
   name: eBay
-- network_id: "000445519153990"
+- network_ids: ["000445519153990", "373583000202167"]
   name: AirBnB
 - network_id: "QLKVWDFJOCS7CNQ"
   name: Shelburne Country Store
-- network_id: "4445100183251"
+- network_ids: ["4445100183251", "4445100153908", "4445100115261"]
   name: Walgreens
 - network_id: "228201000213249"
   name: Comcast
@@ -149,14 +149,12 @@
 - network_id: "WUE8R8DSVX4EVFC"
   name: Airtable
 - network_id: "000445492789992" # Instacart
-- network_id: "03-9508471480"
-  name: Delta # Airlines
 - network_id: "000445120538993" # Not sure how to categorize this
 - network_id: "000445496499994"
   name: Linode
 - network_id: "207481000119835"
   name: Green Mountain Power
-- network_id: "350160000880"
+- network_ids: ["350160000880", "4445900002224"]
   name: Walmart
 - network_id: "000437200575888"
   name: Mastercard Gift Card
@@ -172,13 +170,14 @@
 - network_id: "4445029666487"
 - network_id: "PGHTNMORBEERSHB"
   name: Twilio SendGrid
-- network_id: "050300000009944"
+- network_ids: ["050300000009944", "029500000003608"]
   name: Best Buy
 - network_id: "968453000956037"
   name: Stamps.com
-- network_ids: 
-  - "112137000108778"
-  - "337190000108778"
+- network_ids:
+    - "112137000108778"
+    - "337190000108778"
+    - "416794000031449"
   name: Apple
 - network_id: "4445024897746"
   name: Clipper
@@ -205,9 +204,10 @@
   name: Heroku
 - network_id: "POLKQATDE4V1NYX"
   name: Figma
-- network_id: "012504000111695"
+- network_ids: ["012504000111695", "012504000111695"]
   name: Lowe's
-- network_id: "4445023503995"
+- network_ids:
+    ["4445023503995", "4445022894923", "4445023718254", "4445023607143"]
   name: USPS
 - network_id: "000445472871992"
   name: Vex Robotics
@@ -219,8 +219,6 @@
   name: Calendly
 - network_id: "18777015"
   name: Google Cloud
-- network_id: "000445473801998"
-  name: Uber Eats
 - network_id: "BUOK0IRK7MSQAJ6"
   name: Front Porch Forum
 - network_id: "06812620001RN71"
@@ -244,10 +242,69 @@
   name: USPS Click-N-Ship
 - network_ids: ["372048809886", "372048805884", "000372048820883"]
   name: "American Airlines"
-- network_id: "074100000011007"
+- network_ids: ["074100000011007", "006900000001719"]
   name: FedEx
 - network_id: "053894000053360"
 - network_id: "21-8031690566"
   name: Hilton Garden Inn
+- network_ids:
+    [
+      "895223095889",
+      "493343000457352",
+      "579061000457352",
+      "493612000457352",
+      "493139000457352",
+    ]
+  name: "Exxon Mobil"
 - network_id: "062428000005881"
   name: Wall Street Journal
+- network_ids: ["026214000561001", "575117001412064", "4445041748236"]
+  name: "Starbucks"
+- network_id: "000445531728993"
+  name: "Allianz"
+- network_id: "671070055637909"
+  name: "The Home Depot"
+- network_ids: ["06674441729MDF1", "06281651157MDF1"]
+  name: "McDonald's"
+- network_ids: ["520334509055539"]
+  name: "British Airways"
+- network_id: "A029UNH7PAS9WTV"
+  name: "Work Louder"
+- network_id: "020287208"
+  name: "Ryanair"
+- network_id: "72030468048565"
+  name: "Kiwi"
+- network_id: "425586000423740"
+  name: "Southwest Airlines"
+- network_id: "4445022994319"
+  name: "Aubuchon Hardware"
+- network_id: "000526454596887"
+  name: "Raspberry Pi"
+- network_id: "395709270216"
+  name: "Generator"
+- network_ids: ["2100010008", "03-9508471480"]
+  name: "Delta Airlines"
+- network_id: "5IR2QXJCAREIWRD"
+  name: "Zapier"
+- network_id: "VMT200911026070"
+  name: "Paysend"
+- network_id: "612010401638099"
+  name: "Burger King"
+- network_id: "ENDICIA"
+  name: "Endicia"
+- network_id: "R2P5HXNOM5CLTX4"
+  name: "Appsignal"
+- network_id: "479338001326857"
+  name: "Indeed"
+- network_id: "000445493416991"
+  name: "Adobe"
+- network_id: "K92254"
+  name: "Emirates"
+- network_id: "470282000467566"
+  name: "In-N-Out"
+- network_id: "650000004794015"
+  name: "7-Eleven"
+- network_ids: ["000844026759887", "000844027422881"]
+  name: "MBTA"
+- network_id: "3KT5MLSAQIFOOJO"
+  name: "Airalo"
