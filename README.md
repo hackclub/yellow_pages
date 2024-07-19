@@ -1,4 +1,4 @@
-# YellowPages
+# 📒 YellowPages
 
 A hand-picked collection of the most common Merchant IDs from Stripe.
 
