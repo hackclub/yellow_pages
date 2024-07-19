@@ -8,18 +8,10 @@ RSpec.describe YellowPages::Merchant do
   end
 
   it "returns a merchant name for a found network ID" do
-    expect(YellowPages::Merchant.lookup(network_id: "1234567890")).to eq("name" => "Rocket Rides", "network_id" => "1234567890")
+    expect(YellowPages::Merchant.lookup(network_id: "1234567890")).to eq("Rocket Rides")
   end
 
   it "returns nil for an unfound network ID" do
     expect(YellowPages::Merchant.lookup(network_id: "NONEXISTANT_MERCHANT_ID")).to be_nil
-  end
-
-  it "returns a merchant name for a found network ID" do
-    expect(YellowPages::Merchant.lookup_name(network_id: "1234567890")).to eq("Rocket Rides")
-  end
-
-  it "returns nil for an unfound network ID" do
-    expect(YellowPages::Merchant.lookup_name(network_id: "NONEXISTANT_MERCHANT_ID")).to be_nil
   end
 end
