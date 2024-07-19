@@ -3,7 +3,6 @@
   "items": {
     "type": "object",
     "properties": {
-      "network_id": { "type": "string" },
       "network_ids": { "type": "array", "items": { "type": "string" } },
       "name": { "type": "string" }
     }
