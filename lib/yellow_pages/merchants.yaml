@@ -1,5 +1,4 @@
 # yaml-language-server: $schema=merchants.schema.json
-
 ---
 - network_id: "1234567890"
   name: Rocket Rides # This is a test merchant
@@ -13,13 +12,16 @@
     - "878918000156182"
     - "WNS4FM4IEVRJVP5"
   name: Amazon
+  logo: "https://www.amazon.com/favicon.ico"
 - network_ids: ["000445197950998", "020434184", "0030211548260"]
   name: Uber
+  logo: "https://www.uber.com/favicon.ico"
 - network_id: "000174030072998" # This is PayPal, usually transactions to individuals
 - network_ids: ["242661000053360", "242632000053360"] # this is Square, which has multiple vendors
   # Here is an example name and how to humanize it "SQ *AHLI BABAS KABOB SHOP" -> "Square: Ahli Babas Kabob Shop"
 - network_id: "T8LQCJF1R5GHLTR"
   name: DigitalOcean
+  logo: "https://www.digitalocean.com/_next/static/media/android-chrome-512x512.5f2e6221.png"
 - network_ids: ["000445515396999", "000445473801998"]
   name: Uber Eats
 - network_id: "000174030076999" # This is PayPal, usually transactions to businesses
