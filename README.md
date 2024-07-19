@@ -1,6 +1,6 @@
 # 📒 YellowPages
 
-A hand-picked collection of the most common Merchant IDs from Stripe.
+### Look up merchants from their [Stripe MID](https://stripe.com/resources/more/merchant-id)
 
 ## Installation
 
