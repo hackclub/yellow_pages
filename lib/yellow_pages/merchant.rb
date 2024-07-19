@@ -15,7 +15,7 @@ module YellowPages
     end
 
     def self.icon(network_id:)
-      slug = lookup(network_id:) # .gsub(/[ '-]/, '').downcase
+      slug = lookup(network_id:).gsub(/[ '-]/, "").downcase
       path = Pathname.new(__dir__).join("../assets/icons/#{slug}.svg")
       File.read(path)
     rescue Errno::ENOENT
