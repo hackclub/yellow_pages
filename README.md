@@ -2,8 +2,6 @@
 
 A hand-picked collection of the most common Merchant IDs from Stripe.
 
-test
-
 ## Installation
 
 Add this line to your application's Gemfile:
