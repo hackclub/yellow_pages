@@ -129,7 +129,7 @@
 - network_ids: ["420429000206339"]
   name: AliExpress
 - network_ids: ["717074000713081"]
-  name: DigiKKey
+  name: DigiKey
 - network_ids: ["000000030129860"] # Not sure how to categorize this
 - network_ids: ["W9JEIROWXKO5PEO"]
   name: Discord
