@@ -15,7 +15,9 @@ gem 'yellow_pages', git: 'https://github.com/hackclub/yellow_pages'
 ```ruby
 require 'yellow_pages'
 
-YellowPages::Merchant.lookup_name(network_id: '1234567890')
+merchant = YellowPages::Merchant.lookup(network_id: '1234567890')
+#=> #<YellowPages::Merchant:0x0000000105dd49c8 @network_id="1234567890">
+merchant.name
 #=> "Rocket Rides"
 ```
 
