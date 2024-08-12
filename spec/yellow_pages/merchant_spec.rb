@@ -3,6 +3,13 @@ RSpec.describe YellowPages::Merchant do
     expect(YellowPages::Merchant).not_to be nil
   end
 
+  describe "::lookup" do
+    it "initializes a new merchant" do
+      merchant = YellowPages::Merchant.lookup(network_id: "1234567890")
+      expect(merchant).to be_a YellowPages::Merchant
+    end
+  end
+
   describe "#name" do
     context "when merchant is found" do
       it "returns the merchant name" do
