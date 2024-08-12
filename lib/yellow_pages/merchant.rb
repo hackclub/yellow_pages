@@ -30,6 +30,10 @@ module YellowPages
       @network_id = network_id
     end
 
+    def self.lookup(...)
+      new(...)
+    end
+
     # Returns merchant name
     #
     # @return [String, nil] the name of the merchant, if found
