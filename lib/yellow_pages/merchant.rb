@@ -4,48 +4,67 @@ require "yaml"
 require "pathname"
 
 module YellowPages
-  module Merchant
+  class Merchant
     # Returns all the merchants and their network IDs
     #
     # @return [Hash] the raw merchant hashes
     def self.merchants
-      path = Pathname.new(__dir__).join("merchants.yaml")
-      yaml = YAML.load_file(path)
-      @merchants ||= yaml.flat_map { |x| x["network_ids"].map { |y| [y, x["name"]] } }.to_h
+      @merchants ||=
+        begin
+          path = Pathname.new(__dir__).join("merchants.yaml")
+          yaml = YAML.load_file(path)
+          yaml.flat_map do |merchant|
+            next if merchant["name"].nil?
+
+            merchant["network_ids"].map do |nid|
+              filename = merchant["name"].gsub(/[ '-]/, "").downcase
+              filepath = Pathname.new(__dir__).join("../assets/icons/#{filename}.svg")
+
+              [nid, { name: merchant["name"], icon_filepath: filepath }]
+            end
+          end.compact.to_h
+        end
     end
 
-    # Looks up a merchant name from a network ID
+    def initialize(network_id:)
+      @network_id = network_id
+    end
+
+    # Returns merchant name
     #
-    # @param network_id [String] the ID of the merchant to look up
     # @return [String, nil] the name of the merchant, if found
-    def self.lookup(network_id:)
-      merchants[network_id]
+    def name
+      merchant&.fetch(:name)
     end
 
-    # Returns an SVG logo icon of the merchant looked up from a network ID
+    # Returns an SVG logo icon of the merchant
     #
-    # @param network_id [String] the ID of the merchant to look up
     # @return [String, nil] the SVG code of the merchant, if found
-    def self.icon(network_id:)
-      slug = lookup(network_id:).gsub(/[ '-]/, "").downcase
-      path = Pathname.new(__dir__).join("../assets/icons/#{slug}.svg")
-      File.read(path)
-    rescue Errno::ENOENT
-      nil
+    def icon
+      @icon ||=
+        begin
+          path = merchant&.fetch(:icon_filepath)
+          if path
+            File.open(path) do |file|
+              file.read
+            end
+          end
+        rescue Errno::ENOENT
+          nil
+        end
     end
 
-    def self.method_missing(method_name, *args)
-      return unless /lookup_(?<key>.+)/ =~ method_name
-
-      lookup(network_id: args.first[:network_id])&.dig(key.to_s)
+    # Returns true if the merchant is in the dataset
+    # @return [Boolean] whether the merchant is in our dataset
+    def in_dataset?
+      !merchant.nil?
     end
 
-    def self.respond_to_missing?(method_name, include_private = false)
-      method_name.to_s.start_with?("lookup_") || super
+    private
+
+    def merchant
+      self.class.merchants[@network_id]
     end
 
-    class << self
-      # Private methods
-    end
   end
 end
