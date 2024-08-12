@@ -15,6 +15,12 @@ RSpec.describe YellowPages::Merchant do
       it "returns nil" do
         merchant = YellowPages::Merchant.new(network_id: "NONEXISTANT_MERCHANT_ID")
         expect(merchant.name).to be nil
+
+        merchant = YellowPages::Merchant.new(network_id: nil)
+        expect(merchant.name).to be nil
+
+        merchant = YellowPages::Merchant.new(network_id: "")
+        expect(merchant.name).to be nil
       end
     end
   end
