@@ -24,7 +24,7 @@ RSpec.describe YellowPages::Merchant do
       context "when it has an icon" do
         it "returns the merchant icon" do
           merchant = YellowPages::Merchant.new(network_id: "235251000762203")
-          expect(merchant.icon).kind_of? String
+          expect(merchant.icon).is_a? String
           expect(merchant.icon).to include("<svg")
         end
       end

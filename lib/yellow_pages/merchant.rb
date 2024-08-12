@@ -20,7 +20,7 @@ module YellowPages
               filename = merchant["name"].gsub(/[ '-]/, "").downcase
               filepath = Pathname.new(__dir__).join("../assets/icons/#{filename}.svg")
 
-              [nid, { name: merchant["name"], icon_filepath: filepath }]
+              [nid, {name: merchant["name"], icon_filepath: filepath}]
             end
           end.compact.to_h
         end
@@ -44,11 +44,7 @@ module YellowPages
       @icon ||=
         begin
           path = merchant&.fetch(:icon_filepath)
-          if path
-            File.open(path) do |file|
-              file.read
-            end
-          end
+          File.read(path) if path
         rescue Errno::ENOENT
           nil
         end
@@ -65,6 +61,5 @@ module YellowPages
     def merchant
       self.class.merchants[@network_id]
     end
-
   end
 end
