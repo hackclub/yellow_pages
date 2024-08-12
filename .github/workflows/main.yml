@@ -14,6 +14,7 @@ jobs:
     strategy:
       matrix:
         ruby:
+          - "2.7" # Minimum supported version
           - "3.2.4"
           - "3.3"
           - "ruby" # Latest stable version
