@@ -10,6 +10,15 @@ RSpec.describe YellowPages::Merchant do
     end
   end
 
+  describe "::merchants" do
+    it "returns a hash of merchants keyed by their network ID" do
+      merchants = YellowPages::Merchant.merchants
+      expect(merchants).to be_a Hash
+      expect(merchants.keys).to include("1234567890")
+      expect(merchants["1234567890"].keys).to include(:name, :icon_filepath)
+    end
+  end
+
   describe "#name" do
     context "when merchant is found" do
       it "returns the merchant name" do
