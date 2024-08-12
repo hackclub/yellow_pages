@@ -16,7 +16,7 @@ jobs:
         ruby:
           - "3.2.4"
           - "3.3"
-          - "latest"
+          - "ruby" # Latest stable version
 
     steps:
       - uses: actions/checkout@v4
