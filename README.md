@@ -10,6 +10,8 @@ Add this line to your application's Gemfile:
 gem 'yellow_pages', git: 'https://github.com/hackclub/yellow_pages'
 ```
 
+_It is recommended to pin the version to a commit hash to ensure stability._
+
 ## Usage
 
 ```ruby
