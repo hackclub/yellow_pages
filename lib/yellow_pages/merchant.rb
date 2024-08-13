@@ -28,6 +28,8 @@ module YellowPages
 
     def initialize(network_id:)
       @network_id = network_id
+
+      YellowPages.missing_merchant_reporter&.call(@network_id) unless in_dataset?
     end
 
     def self.lookup(...)
