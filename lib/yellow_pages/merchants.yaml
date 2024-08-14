@@ -12,13 +12,22 @@
     - "878918000156182"
     - "WNS4FM4IEVRJVP5"
   name: Amazon
-- network_ids: ["000445197950998", "020434184", "0030211548260"]
+- network_ids: ["470000087081873"]
+  name: "Amazon Pay"
+- network_ids:
+    - "000445197950998"
+    - "020434184"
+    - "0030211548260"
+    - "0030211548260"
+    - "Q5UHZZSOXVRKHQF"
   name: Uber
 - network_ids: ["000174030072998"]
   name: "PayPal Personal"
-- network_ids: ["242661000053360", "242632000053360"] # this is Square, which has multiple vendors
+- network_ids: ["242632000053360"] # this is Square, which has multiple vendors
   # Here is an example name and how to humanize it "SQ *AHLI BABAS KABOB SHOP" -> "Square: Ahli Babas Kabob Shop"
   name: "Square"
+- network_ids: ["242661000053360"]
+  name: "Ahli Babas Kabob Shop" # Square
 - network_ids: ["T8LQCJF1R5GHLTR"]
   name: DigitalOcean
 - network_ids: ["000445515396999", "000445473801998"]
@@ -30,7 +39,11 @@
 - network_ids: ["000445385180994"]
   name: Lyft
 - network_ids:
-    ["248754000103177", "17188425", "420429000211313", "089062000854521"]
+    - "248754000103177"
+    - "17188425"
+    - "420429000211313"
+    - "089062000854521"
+    - "248754000103177"
   name: Google Cloud & Domains
 - network_ids: ["420429000200589"]
   name: Facebook
@@ -46,12 +59,11 @@
   name: Zoom
 - network_ids: ["350086000284343"]
   name: New York City MTA
-- network_ids: ["000445488848992"] # This is doordash, which has multiple vendors
 - network_ids: ["000445190514999"] # This is 3 different companies
 - network_ids: ["PCHKYPXKE7JJJ7G", "000000000525623"]
   name: JLCPCB
-- network_ids: ["000992203619885"]
-  name: Andy Mark
+- network_ids: ["000992203619885", "000000000525623"]
+  name: AndyMark
 - network_ids: ["000446027916993", "000526448660880"]
   name: goBILDA
 - network_ids: ["IAMND6350ILIORH"]
@@ -88,9 +100,9 @@
   name: Comcast
 - network_ids: ["84870007600474"]
   name: McMaster-Carr
-- network_ids: ["1VKWOGBF44BU45L"]
+- network_ids: ["1VKWOGBF44BU45L", "000445488848992"]
   name: DoorDash
-- network_ids: ["345002124880"]
+- network_ids: ["345002124880", "345856909881"]
   name: Costco Wholesale
 - network_ids: ["000445201721997"]
   name: Heroku
@@ -148,7 +160,6 @@
   name: Shopify
 - network_ids: ["WUE8R8DSVX4EVFC"]
   name: Airtable
-- network_ids: ["000445492789992"] # Instacart
 - network_ids: ["000445120538993"] # Not sure how to categorize this
 - network_ids: ["000445496499994"]
   name: Linode
@@ -165,7 +176,7 @@
 - network_ids: ["000341163970880"]
   name: JetBlue
 - network_ids: ["394989000256686"]
-- network_ids: ["345160240882"]
+- network_ids: ["345160240882", "009100000003306"]
   name: Target
 - network_ids: ["4445029666487"]
 - network_ids: ["PGHTNMORBEERSHB"]
@@ -187,7 +198,7 @@
 - network_ids: ["526805"]
 - network_ids: ["4445023835264"]
 - network_ids: ["ZFDTOQPZON8YW7X"]
-- network_ids: ["YJAFPWST3ICXIAV"]
+- network_ids: ["YJAFPWST3ICXIAV", "000445492789992"]
   name: Instacart
 - network_ids: ["VUWJW1EPYIK00TL"]
   name: Printify
@@ -308,3 +319,39 @@
   name: "MBTA"
 - network_ids: ["3KT5MLSAQIFOOJO"]
   name: "Airalo"
+- network_ids: ["4445029666487"]
+  name: "Culligan Water"
+- network_ids: ["NH1ZWAXFNEROZSW"]
+  name: "Pine64"
+- network_ids: ["242632000053360"]
+  name: "Ben & Jerry's"
+- network_ids: ["0RAJFJX30CZG7UI"]
+  name: "Fillout"
+- network_ids: ["0RAJFJX30CZG7UI", "UTKZU3DZR5BG0BJ"]
+  name: "X"
+- network_ids: ["OAUGYWS8QLWTF2J"]
+  name: "Contabo"
+- network_ids: ["QB8WWWTJDF1AAOO"]
+  name: "Bambu Lab"
+- network_ids: ["BXPU2FTJYLKK2NG"]
+  name: "Browserless"
+- network_ids: ["1022701"]
+  name: "TFL"
+- network_ids: ["000345650163883"]
+  name: "Chipotle"
+- network_ids: ["479338001187655"]
+  name: "Greyhound"
+- network_ids: ["479338000222115"]
+  name: "Leatherman"
+- network_ids: ["479338001612579"]
+  name: "Kru Coffee"
+- network_ids: ["631601401748305"]
+  name: "Panera Bread"
+- network_ids: ["105139245"]
+  name: "Hetzner"
+- network_ids: ["000737075554888"]
+  name: "Olive Garden"
+- network_ids: ["8TSMJLH3DEKQVVL"]
+  name: "Flipper"
+- network_ids: ["582087000392222"]
+  name: "Green Mountain Transit"
