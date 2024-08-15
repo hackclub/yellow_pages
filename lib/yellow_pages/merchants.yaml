@@ -23,9 +23,9 @@
   name: Uber
 - network_ids: ["000174030072998"]
   name: "PayPal Personal"
-- network_ids: ["242632000053360", "242661000053360"] # this is Square, which has multiple vendors
-  # Here is an example name and how to humanize it "SQ *AHLI BABAS KABOB SHOP" -> "Square: Ahli Babas Kabob Shop"
-  name: "Square"
+#- network_ids: ["242632000053360", "242661000053360"] # this is Square, which has multiple vendors
+# Here is an example name and how to humanize it "SQ *AHLI BABAS KABOB SHOP" -> "Square: Ahli Babas Kabob Shop"
+#  name: "Square"
 - network_ids: ["T8LQCJF1R5GHLTR"]
   name: DigitalOcean
 - network_ids: ["000445515396999", "000445473801998"]
