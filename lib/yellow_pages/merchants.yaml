@@ -321,8 +321,8 @@
   name: "Culligan Water"
 - network_ids: ["NH1ZWAXFNEROZSW"]
   name: "Pine64"
-- network_ids: ["242632000053360"]
-  name: "Ben & Jerry's"
+# - network_ids: ["242632000053360"]
+#   name: "Ben & Jerry's"
 - network_ids: ["0RAJFJX30CZG7UI"]
   name: "Fillout"
 - network_ids: ["UTKZU3DZR5BG0BJ"]
