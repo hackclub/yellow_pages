@@ -289,8 +289,8 @@
   name: "Aubuchon Hardware"
 - network_ids: ["000526454596887"]
   name: "Raspberry Pi"
-- network_ids: ["395709270216"]
-  name: "Generator"
+# - network_ids: ["395709270216"]
+#   name: "Generator"
 - network_ids: ["2100010008", "03-9508471480"]
   name: "Delta Airlines"
 - network_ids: ["5IR2QXJCAREIWRD"]
