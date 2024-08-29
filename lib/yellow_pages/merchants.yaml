@@ -290,7 +290,7 @@
 - network_ids: ["000526454596887"]
   name: "Raspberry Pi"
 # - network_ids: ["395709270216"]
-#   name: "Generator"
+#   Names are prefixed with "PY *". Applies to multiple merchants including the Generator
 - network_ids: ["2100010008", "03-9508471480"]
   name: "Delta Airlines"
 - network_ids: ["5IR2QXJCAREIWRD"]
@@ -321,8 +321,6 @@
   name: "Culligan Water"
 - network_ids: ["NH1ZWAXFNEROZSW"]
   name: "Pine64"
-# - network_ids: ["242632000053360"]
-#   name: "Ben & Jerry's"
 - network_ids: ["0RAJFJX30CZG7UI"]
   name: "Fillout"
 - network_ids: ["UTKZU3DZR5BG0BJ"]
