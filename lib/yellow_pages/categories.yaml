@@ -419,7 +419,7 @@
   key: golf_courses_public
   name: Golf Courses - Public
 7801:
-  key: government_licensed_online_casions_online_gambling_us_region_only
+  key: government_licensed_online_casions_online_gambling_us_region_only # directly from Stripe's docs :-P
   name: Government Licensed On-line Casinos (On-Line Gambling)(US Region only)
 9399:
   key: government_services
