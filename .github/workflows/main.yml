@@ -36,3 +36,4 @@ jobs:
       - uses: actions/setup-node@v4
       - run: npm install -g ajv-cli
       - run: ajv -s lib/yellow_pages/merchants.schema.json -d lib/yellow_pages/merchants.yaml --errors=text
+      - run: ajv -s lib/yellow_pages/categories.schema.json -d lib/yellow_pages/categories.yaml --errors=text

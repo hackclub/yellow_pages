@@ -4,6 +4,7 @@ require "yaml"
 
 require_relative "yellow_pages/version"
 require_relative "yellow_pages/merchant"
+require_relative "yellow_pages/category"
 
 module YellowPages
   class Error < StandardError; end

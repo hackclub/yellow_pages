@@ -1,0 +1,6 @@
+# yaml-language-server: $schema=categories.schema.json
+# https://docs.stripe.com/issuing/categories
+---
+7623:
+  key: ac_refrigeration_repair
+  name: A/C, Refrigeration Repair
