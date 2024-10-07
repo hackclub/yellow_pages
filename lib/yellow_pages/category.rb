@@ -26,6 +26,10 @@ module YellowPages
         end
     end
 
+    # Pre-compile on boot/gem require
+    categories_by_code
+    categories_by_key
+
     def initialize(code: nil, key: nil)
       raise ArugmentError, "Either code or key must be provided" if code.nil? && key.nil?
 
