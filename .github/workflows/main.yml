@@ -14,8 +14,8 @@ jobs:
     strategy:
       matrix:
         ruby:
-          - "2.7" # Minimum supported version
-          - "3.2.4"
+          - "3.1" # Minimum supported version
+          - "3.2"
           - "3.3"
           - "ruby" # Latest stable version
 
@@ -36,3 +36,4 @@ jobs:
       - uses: actions/setup-node@v4
       - run: npm install -g ajv-cli
       - run: ajv -s lib/yellow_pages/merchants.schema.json -d lib/yellow_pages/merchants.yaml --errors=text
+      - run: ajv -s lib/yellow_pages/categories.schema.json -d lib/yellow_pages/categories.yaml --errors=text

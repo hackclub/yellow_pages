@@ -26,6 +26,9 @@ module YellowPages
         end
     end
 
+    # Pre-compile on boot/gem require
+    merchants
+
     def initialize(network_id:)
       @network_id = network_id
 
