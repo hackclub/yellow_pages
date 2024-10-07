@@ -11,7 +11,7 @@ module YellowPages
         begin
           path = Pathname.new(__dir__).join("categories.yaml")
           YAML.load_file(path).map do |code, obj|
-            [code, obj.merge(code:).transform_keys(&:to_sym)]
+            [code.to_s, obj.merge(code:).transform_keys(&:to_sym)]
           end.to_h
         end
     end
