@@ -31,7 +31,7 @@ module YellowPages
     categories_by_key
 
     def initialize(code: nil, key: nil)
-      raise ArugmentError, "Either code or key must be provided" if code.nil? && key.nil?
+      raise ArgumentError, "Either code or key must be provided" if code.nil? && key.nil?
 
       @code, @key = code, key
     end
