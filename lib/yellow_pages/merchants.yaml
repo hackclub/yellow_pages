@@ -18,7 +18,6 @@
     - "000445197950998"
     - "020434184"
     - "0030211548260"
-    - "0030211548260"
     - "Q5UHZZSOXVRKHQF"
   name: Uber
 - network_ids: ["000174030072998"]
@@ -41,7 +40,6 @@
     - "17188425"
     - "420429000211313"
     - "089062000854521"
-    - "248754000103177"
   name: Google Cloud & Domains
 - network_ids: ["420429000200589"]
   name: Facebook
@@ -70,8 +68,6 @@
     - "14CPM0000003735"
     - "38RR00000482336"
   name: Zomato
-- network_ids: ["VMT200911026070"]
-  name: PaySend
 - network_ids: ["UDG7MDCO5H1VUKW"]
   name: Canva
 - network_ids: ["000425242858990"]
@@ -176,7 +172,6 @@
 - network_ids: ["394989000256686"]
 - network_ids: ["345160240882", "009100000003306"]
   name: Target
-- network_ids: ["4445029666487"]
 - network_ids: ["PGHTNMORBEERSHB"]
   name: Twilio SendGrid
 - network_ids: ["050300000009944", "029500000003608"]
@@ -213,7 +208,7 @@
   name: Heroku
 - network_ids: ["POLKQATDE4V1NYX"]
   name: Figma
-- network_ids: ["012504000111695", "012504000111695"]
+- network_ids: ["012504000111695"]
   name: Lowe's
 - network_ids:
     ["4445023503995", "4445022894923", "4445023718254", "4445023607143"]
@@ -236,7 +231,6 @@
   name: Visible
 - network_ids: ["03-8036071077"]
   name: Pirate Ship
-- network_ids: ["5IR2QXJCAREIWRD"]
 - network_ids: ["Q39I5NEONHREFYB"]
 - network_ids: ["68880021668228"]
   name: Goodwill
@@ -285,8 +279,6 @@
   name: "Kiwi"
 - network_ids: ["425586000423740"]
   name: "Southwest Airlines"
-- network_ids: ["4445022994319"]
-  name: "Aubuchon Hardware"
 - network_ids: ["000526454596887"]
   name: "Raspberry Pi"
 # - network_ids: ["395709270216"]
