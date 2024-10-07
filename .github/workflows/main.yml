@@ -30,10 +30,12 @@ jobs:
         run: bundle exec rspec
   validate-yaml:
     runs-on: ubuntu-latest
-    name: Validate merchants.yaml
+    name: Validate YAML
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
       - run: npm install -g ajv-cli
-      - run: ajv -s lib/yellow_pages/merchants.schema.json -d lib/yellow_pages/merchants.yaml --errors=text
-      - run: ajv -s lib/yellow_pages/categories.schema.json -d lib/yellow_pages/categories.yaml --errors=text
+      - name: Validate merchants.yaml
+        run: ajv -s lib/yellow_pages/merchants.schema.json -d lib/yellow_pages/merchants.yaml --errors=text
+      - name: Validate categories.yaml
+        run: ajv -s lib/yellow_pages/categories.schema.json -d lib/yellow_pages/categories.yaml --errors=text
