@@ -37,5 +37,7 @@ jobs:
       - run: npm install -g ajv-cli
       - name: Validate merchants.yaml
         run: ajv -s lib/yellow_pages/merchants.schema.json -d lib/yellow_pages/merchants.yaml --errors=text
+      - name: Validate unique network_ids in merchants.yaml
+        run: if [[ $(yq 'map(.network_ids) | flatten | sort' lib/yellow_pages/merchants.yaml | uniq -cd | tee /dev/tty) ]]; then exit 1; else exit 0; fi
       - name: Validate categories.yaml
         run: ajv -s lib/yellow_pages/categories.schema.json -d lib/yellow_pages/categories.yaml --errors=text
