@@ -345,3 +345,5 @@
   name: "Green Mountain Transit"
 - network_ids: ["47986901"]
   name: "Post Office Counter"
+- network_ids: ["XKPH71LZ3KCA8SQ"]
+  name: "Uberspace"
