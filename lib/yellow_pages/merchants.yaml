@@ -335,7 +335,7 @@
   name: "Kru Coffee"
 - network_ids: ["631601401748305"]
   name: "Panera Bread"
-- network_ids: ["105139245"]
+- network_ids: ["105139245","472721821"]
   name: "Hetzner"
 - network_ids: ["000737075554888"]
   name: "Olive Garden"
@@ -343,3 +343,7 @@
   name: "Flipper"
 - network_ids: ["582087000392222"]
   name: "Green Mountain Transit"
+- network_ids: ["47986901"]
+  name: "Post Office Counter"
+- network_ids: ["XKPH71LZ3KCA8SQ"]
+  name: "Uberspace"
