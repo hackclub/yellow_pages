@@ -343,7 +343,7 @@
   name: "Flipper"
 - network_ids: ["582087000392222"]
   name: "Green Mountain Transit"
-- network_ids: ["47986901"]
+- network_ids: ["47986901", "71771081", "44458051"]
   name: "Post Office Counter"
 - network_ids: ["XKPH71LZ3KCA8SQ"]
   name: "Uberspace"
