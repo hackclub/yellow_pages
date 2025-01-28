@@ -348,3 +348,5 @@
   name: "Post Office Counter"
 - network_ids: ["XKPH71LZ3KCA8SQ"]
   name: "Uberspace"
+- network_ids: ["31431585"]
+  name: "Royal Mail"
