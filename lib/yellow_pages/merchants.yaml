@@ -336,7 +336,7 @@
   name: "Kru Coffee"
 - network_ids: ["631601401748305"]
   name: "Panera Bread"
-- network_ids: ["105139245","472721821"]
+- network_ids: ["105139245","472721821","DE0100000306272"]
   name: "Hetzner"
 - network_ids: ["000737075554888"]
   name: "Olive Garden"
@@ -350,3 +350,5 @@
   name: "Uberspace"
 - network_ids: ["31431585"]
   name: "Royal Mail"
+  - network_ids: ["QSIOSLPTYEWNZVR"]
+  name: "dbrand"
