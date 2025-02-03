@@ -350,5 +350,5 @@
   name: "Uberspace"
 - network_ids: ["31431585"]
   name: "Royal Mail"
-  - network_ids: ["QSIOSLPTYEWNZVR"]
+- network_ids: ["QSIOSLPTYEWNZVR"]
   name: "dbrand"
