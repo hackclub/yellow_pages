@@ -200,6 +200,10 @@
   name: Casella Waste Systems
 - network_ids: ["210993000015342"]
   name: United Airlines
+- network_ids: ["324969000322864"]
+  name: Air Canada
+- network_ids: ["205953000182343"]
+  name: Southwest Airlines
 - network_ids: ["425545000167955"]
   name: Hannaford
 - network_ids: ["AH6WGZF3Y8QM8BB"]
