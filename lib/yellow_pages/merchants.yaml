@@ -358,3 +358,10 @@
   name: "dbrand"
 - network_ids: ["H6LVNPMMWPPT9VW"]
   name: "Cloudflare"
+- network_ids:
+    - "002206371155" # thailand
+    - "178006020998" # usa blatimore
+    - "380616000030002" # poland
+    - "IKEA3381362" # ikea india
+    - "0030204391090" # canada
+  name: "Ikea"
