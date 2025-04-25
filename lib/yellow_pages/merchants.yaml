@@ -29,7 +29,7 @@
 #  name: "Square"
 - network_ids: ["T8LQCJF1R5GHLTR"]
   name: DigitalOcean
-- network_ids: ["000445515396999", "000445473801998"]
+- network_ids: ["000445515396999", "000445473801998", "000767202747881"]
   name: Uber Eats
 - network_ids: ["000174030076999"]
   name: "PayPal Business"
