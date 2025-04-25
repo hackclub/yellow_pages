@@ -365,3 +365,5 @@
     - "IKEA3381362" # ikea india
     - "0030204391090" # canada
   name: "Ikea"
+- network_ids: ["345020787882"]
+  name: "Alaska Airlines"
