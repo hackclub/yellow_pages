@@ -270,7 +270,7 @@
   name: "Starbucks"
 - network_ids: ["000445531728993"]
   name: "Allianz"
-- network_ids: ["671070055637909"]
+- network_ids: ["671070055637909", "671070900374736"]
   name: "The Home Depot"
 - network_ids: ["06674441729MDF1", "06281651157MDF1"]
   name: "McDonald's"
