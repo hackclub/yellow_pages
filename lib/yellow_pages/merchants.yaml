@@ -160,7 +160,7 @@
   name: Linode
 - network_ids: ["207481000119835"]
   name: Green Mountain Power
-- network_ids: ["350160000880", "4445900002224"]
+- network_ids: ["350160000880", "4445900002224", "4445900009920"]
   name: Walmart
 - network_ids: ["000437200575888"]
   name: Mastercard Gift Card
