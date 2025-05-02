@@ -230,7 +230,7 @@
   name: Google Cloud
 - network_ids: ["BUOK0IRK7MSQAJ6"]
   name: Front Porch Forum
-- network_ids: ["06812620001RN71"]
+- network_ids: ["06812620001RN71", "334791070884"]
   name: City Market
 - network_ids: ["000445517667991"]
   name: Visible
