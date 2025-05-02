@@ -85,8 +85,8 @@
   name: VistaPrint
 - network_ids: ["420429000208822"]
   name: eBay
-- network_ids: ["000445519153990", "373583000202167"]
-  name: AirBnB
+- network_ids: ["000445519153990", "373583000202167", "000767202823880"]
+  name: Airbnb
 - network_ids: ["QLKVWDFJOCS7CNQ"]
   name: Shelburne Country Store
 - network_ids: ["4445100183251", "4445100153908", "4445100115261"]
