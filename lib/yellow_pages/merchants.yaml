@@ -369,5 +369,7 @@
     - "IKEA3381362" # ikea india
     - "0030204391090" # canada
   name: "Ikea"
+- network_ids: ["000767201491887"]
+  name: "Upwork"
 - network_ids: ["004161221991"]
   name: "Market 32"
