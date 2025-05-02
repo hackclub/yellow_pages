@@ -14,6 +14,7 @@
     - "878918000156182"
     - "WNS4FM4IEVRJVP5"
     - "RTM8SIGSSD4N4AY"
+    - "WSWPNP5AVX9IHNV"
   name: Amazon
 - network_ids: ["470000087081873"]
   name: "Amazon Pay"
@@ -138,7 +139,7 @@
   name: GoDaddy
 - network_ids: ["420429000206339"]
   name: AliExpress
-- network_ids: ["717074000713081"]
+- network_ids: ["717074000713081","322143000713081","328953000713081"]
   name: DigiKey
 - network_ids: ["000000030129860"] # Not sure how to categorize this
 - network_ids: ["W9JEIROWXKO5PEO"]
