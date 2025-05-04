@@ -63,7 +63,7 @@ at https://github.com/hackclub/yellow_pages.
 
 ### How do I add a new icon to a Merchant ID?
 
-1. Make your SVG of the vendor, make sure this is viewable on a white and black background so it's accessible.
+1. Make your SVG of the vendor, make sure this is viewable on a white and black background so it's accessible. Your SVG should be square and black with a transparent background.
 
 2. Check [merchants.yaml](https://github.com/hackclub/yellow_pages/blob/main/lib/yellow_pages/merchants.yaml) to see if the vendor is there. If it's not, look up the merchant ID (see below) and add the merchant info to the file.
 
