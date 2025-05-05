@@ -73,7 +73,7 @@ at https://github.com/hackclub/yellow_pages.
 
 1. Find the Merchant ID. If you don't already have it, have a look at the section below.
 
-2. Once you have the Merchant ID, fork and open [merchants.yaml](https://github.com/hackclub/yellow_pages/blob/main/lib/yellow_pages/merchants.yaml), and at the bottom of the file add your information in this order:
+2. Once you have the Merchant ID, fork and open [merchants.yaml](https://github.com/hackclub/yellow_pages/blob/main/lib/yellow_pages/merchants.yaml), and at the bottom of the file add your information in this format:
 
 ```yaml
 - network_ids: ["1234567890"] # Merchant IDs
