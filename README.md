@@ -95,6 +95,12 @@ Sometimes merchants use more than one MID, this is unfortunately quite common! I
 
 Once you've found the pre-existing one, add the new one after a comma and quotation marks!
 
+#### Merchants of Records
+
+A Merchant of Record will share its merchant ID with multiple vendors. For example, Square will show up as the merchant for many small shops.
+
+With our current setup, we don't want to include these in the yaml file, so if you come across one please do not try adding it.
+
 ### How do I find a Merchant ID?
 
 1. Check [merchants.yaml](https://github.com/hackclub/yellow_pages/blob/main/lib/yellow_pages/merchants.yaml).
