@@ -380,3 +380,5 @@
   name: "Zepto"
 - network_ids: ["470000087047460", "470000087053553"]
   name: "Flipkart"
+- network_ids: ["N1VWJHWU8ER01FU"]
+  name: "Framework"
