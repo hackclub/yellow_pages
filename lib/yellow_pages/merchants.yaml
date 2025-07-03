@@ -15,6 +15,7 @@
     - "WNS4FM4IEVRJVP5"
     - "RTM8SIGSSD4N4AY"
     - "WSWPNP5AVX9IHNV"
+    - "701198"
   name: Amazon
 - network_ids: ["470000087081873"]
   name: "Amazon Pay"
@@ -137,7 +138,7 @@
   name: GoodHire
 - network_ids: ["395700028300"]
   name: GoDaddy
-- network_ids: ["420429000206339"]
+- network_ids: ["420429000206339", "420429000203260"]
   name: AliExpress
 - network_ids: ["717074000713081","322143000713081","328953000713081"]
   name: DigiKey
@@ -226,8 +227,6 @@
   name: Vex Robotics
 - network_ids: ["000445204769993"]
   name: Dialpad
-- network_ids: ["420429000203260"]
-  name: AliExpress
 - network_ids: ["6VQMY6JIV5D8VOU"]
   name: Calendly
 - network_ids: ["18777015"]
@@ -375,5 +374,11 @@
   name: "Upwork"
 - network_ids: ["004161221991"]
   name: "Market 32"
+- network_ids: ["5586000012277"]
+  name: "Daraz"
+- network_ids: ["107193001001817", "470000087113287", "100000000001DPu"]
+  name: "Zepto"
+- network_ids: ["470000087047460", "470000087053553"]
+  name: "Flipkart"
 - network_ids: ["N1VWJHWU8ER01FU"]
   name: "Framework"
