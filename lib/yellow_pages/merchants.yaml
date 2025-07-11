@@ -16,6 +16,7 @@
     - "RTM8SIGSSD4N4AY"
     - "WSWPNP5AVX9IHNV"
     - "701198"
+    - "AMAZON"
   name: Amazon
 - network_ids: ["470000087081873"]
   name: "Amazon Pay"
