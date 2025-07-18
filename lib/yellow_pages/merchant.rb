@@ -20,7 +20,7 @@ module YellowPages
               filename = merchant["name"].gsub(/[ '-]/, "").downcase
               filepath = Pathname.new(__dir__).join("../assets/icons/#{filename}.svg")
 
-              [nid, {name: merchant["name"], icon_filepath: filepath}]
+              [nid, {name: merchant["name"], merchant_of_record: merchant["merchant_of_record"], icon_filepath: filepath}]
             end
           end.compact.to_h
         end
@@ -44,6 +44,13 @@ module YellowPages
     # @return [String, nil] the name of the merchant, if found
     def name
       merchant&.fetch(:name)
+    end
+
+    # Returns merchant name
+    #
+    # @return [String, nil] the name of the merchant, if found
+    def merchant_of_record?
+      merchant&.fetch(:merchant_of_record)
     end
 
     # Returns an SVG logo icon of the merchant
