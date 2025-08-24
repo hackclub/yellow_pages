@@ -382,3 +382,7 @@
   name: "Flipkart"
 - network_ids: ["N1VWJHWU8ER01FU"]
   name: "Framework"
+- network_ids: ["104276479"]
+  name: "Shopee"
+- network_ids: ["9182087924"]
+  name: "Lazada"
