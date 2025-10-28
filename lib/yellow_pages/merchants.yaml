@@ -162,7 +162,7 @@
 - network_ids: ["WUE8R8DSVX4EVFC"]
   name: Airtable
 - network_ids: ["000445120538993"] # Not sure how to categorize this
-- network_ids: ["000445496499994"]
+- network_ids: ["000445496499994", "000526375168881"]
   name: Linode
 - network_ids: ["207481000119835"]
   name: Green Mountain Power
