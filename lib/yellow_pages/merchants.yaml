@@ -55,7 +55,7 @@
     - "420429000211313"
     - "089062000854521"
   name: Google Cloud & Domains
-- network_ids: ["420429000212915", "420429000211156"]
+- network_ids: ["420429000212915", "420429000211156", "420429000211164"]
   name: "Google Workspace"
 - network_ids: ["420429000200589"]
   name: Facebook
