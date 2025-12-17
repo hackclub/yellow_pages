@@ -399,3 +399,5 @@
   name: "Anthropic"
 - network_ids: ["526805"]
   name: "Talabat"
+- network_ids: ["MZJ96QO0A3SN4BD"]
+  name: "Cursor"
