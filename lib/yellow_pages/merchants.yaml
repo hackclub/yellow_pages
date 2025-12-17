@@ -123,7 +123,7 @@
 - network_ids: ["000445201721997"]
   name: Heroku
 - network_ids: ["VHEA9NFEH64WHY7"] # This is stripe, but only some HCB transactions
-- network_ids: ["536385460049638"]
+- network_ids: ["536385460049638", "9M4YMRJXF76Y6TD"]
   name: Adafruit
 - network_ids: ["17-8031944641"]
   name: Village Wine and Coffee
