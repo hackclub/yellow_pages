@@ -394,3 +394,5 @@
   name: "Lazada"
 - network_ids: ["Q0RRUWQV26H30SO"]
   name: "Anthropic"
+- network_ids: ["526805"]
+  name: "Talabat"
