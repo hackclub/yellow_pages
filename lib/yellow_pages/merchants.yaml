@@ -424,3 +424,5 @@
   name: "Slack"
 - network_ids: ["SJUICQZSXRRIIQQ"]
   name: "OpenRouter"
+- network_ids: ["010500000209908"]
+  name: Staples
