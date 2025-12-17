@@ -390,3 +390,5 @@
     - "9182087924" # PH
     - "WJTYVIYBYQOXOIH" # SG
   name: "Lazada"
+- network_ids: ["Q0RRUWQV26H30SO"]
+  name: "Anthropic"
