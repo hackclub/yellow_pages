@@ -152,7 +152,7 @@
 - network_ids: ["000174101940990"] # Not sure how to categorize this
 - network_ids: ["217795000024161"]
   name: GoodHire
-- network_ids: ["395700028300"]
+- network_ids: ["395700028300", "000311035200881"]
   name: GoDaddy
 - network_ids: ["420429000206339", "420429000203260"]
   name: AliExpress
