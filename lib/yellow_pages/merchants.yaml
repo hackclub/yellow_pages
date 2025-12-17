@@ -39,7 +39,10 @@
   name: Uber Eats
 - network_ids: ["000174030076999"]
   name: "PayPal Business"
-- network_ids: ["000445532591994"]
+- network_ids:
+    - "000445532591994"
+    - "03-8036071077"
+    - "000767211761881"
   name: Pirate Ship
 - network_ids: ["000445385180994"]
   name: Lyft
@@ -239,8 +242,6 @@
   name: City Market
 - network_ids: ["000445517667991"]
   name: Visible
-- network_ids: ["03-8036071077"]
-  name: Pirate Ship
 - network_ids: ["Q39I5NEONHREFYB"]
 - network_ids: ["68880021668228"]
   name: Goodwill
