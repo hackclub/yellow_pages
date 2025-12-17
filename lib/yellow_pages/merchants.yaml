@@ -414,7 +414,7 @@
   name: "Cursor"
 - network_ids: ["453022000202588"]
   name: "LCSC"
-- network_ids: ["420429000204094"]
+- network_ids: ["420429000204094", "395707494990"]
   name: "Steam"
 - network_ids: ["000526450917889"]
   name: "Waymo"
