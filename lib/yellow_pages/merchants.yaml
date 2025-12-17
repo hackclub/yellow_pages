@@ -213,7 +213,10 @@
 - network_ids: ["526805"]
 - network_ids: ["4445023835264"]
 - network_ids: ["ZFDTOQPZON8YW7X"]
-- network_ids: ["YJAFPWST3ICXIAV", "000445492789992"]
+- network_ids:
+    - "YJAFPWST3ICXIAV"
+    - "000445492789992"
+    - "000767202745885"
   name: Instacart
 - network_ids: ["VUWJW1EPYIK00TL"]
   name: Printify
