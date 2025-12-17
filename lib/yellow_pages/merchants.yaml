@@ -435,7 +435,7 @@
   name: "Slack"
 - network_ids: ["SJUICQZSXRRIIQQ"]
   name: "OpenRouter"
-- network_ids: ["010500000209908"]
+- network_ids: ["010500000209908", "010500000101667"]
   name: Staples
 - network_ids: ["ETIHPV8Z2PTVR6O"]
   name: Sparrows Lock Picks
