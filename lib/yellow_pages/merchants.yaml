@@ -20,7 +20,7 @@
     - "5234080009"
     - "M3ONFPHDXOBTTFI"
   name: Amazon
-- network_ids: ["470000087081873"]
+- network_ids: ["470000087081873", "14CPM0000001975"]
   name: "Amazon Pay"
 - network_ids:
     - "000445197950998"
