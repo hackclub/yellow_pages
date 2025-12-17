@@ -351,7 +351,7 @@
   name: "X"
 - network_ids: ["OAUGYWS8QLWTF2J"]
   name: "Contabo"
-- network_ids: ["QB8WWWTJDF1AAOO", "IMISK0PQGVKOMZJ"]
+- network_ids: ["QB8WWWTJDF1AAOO", "IMISK0PQGVKOMZJ", "809364480581502"]
   name: "Bambu Lab"
 - network_ids: ["BXPU2FTJYLKK2NG"]
   name: "Browserless"
