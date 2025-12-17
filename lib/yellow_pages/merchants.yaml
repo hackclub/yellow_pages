@@ -192,7 +192,7 @@
 - network_ids: ["000341163970880"]
   name: JetBlue
 - network_ids: ["394989000256686"]
-- network_ids: ["345160240882", "009100000003306"]
+- network_ids: ["345160240882", "009100000003306", "009100000002766"]
   name: Target
 - network_ids: ["PGHTNMORBEERSHB"]
   name: Twilio SendGrid
