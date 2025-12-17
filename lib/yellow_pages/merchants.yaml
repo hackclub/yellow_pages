@@ -363,7 +363,7 @@
   name: "Olive Garden"
 - network_ids: ["8TSMJLH3DEKQVVL"]
   name: "Flipper"
-- network_ids: ["582087000392222"]
+- network_ids: ["582087000392222", "582086000392222"]
   name: "Green Mountain Transit"
 - network_ids: ["47986901", "71771081", "44458051", "72402031", "34398901", "71911251", "28440411"]
   name: "Post Office Counter"
