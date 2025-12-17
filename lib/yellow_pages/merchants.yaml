@@ -420,3 +420,5 @@
   name: "Waymo"
 - network_ids: ["0030209421520"]
   name: "Jukebox"
+- network_ids: ["TDBTRIMXI14FMHY"]
+  name: "Slack"
