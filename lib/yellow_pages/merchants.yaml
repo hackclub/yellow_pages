@@ -166,7 +166,7 @@
 - network_ids: ["219040000207048"] # Not sure how to categorize this
 - network_ids: ["PJ6EPJEEPOYQDFS"]
   name: Shippo
-- network_ids: ["000445537108992"]
+- network_ids: ["000445537108992", "000767204256881"]
   name: Vermont Gas
 - network_ids: ["325136000756346"]
   name: Intuit
