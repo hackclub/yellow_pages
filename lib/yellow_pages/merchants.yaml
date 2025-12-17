@@ -141,7 +141,11 @@
   name: Printful
 - network_ids: ["VHWLO7VF91VFRZF"]
   name: Webflow
-- network_ids: ["HECTREQUAUTMVVL", "000767201785882", "420429000201835"]
+- network_ids:
+    - "HECTREQUAUTMVVL"
+    - "000767201785882"
+    - "420429000201835"
+    - "000445488352995"
   name: Wix.com
 - network_ids: ["112127000108778"]
   name: Apple
@@ -414,10 +418,10 @@
   name: "Flipkart"
 - network_ids: ["N1VWJHWU8ER01FU"]
   name: "Framework"
-- network_ids: 
+- network_ids:
     - "104276479" # PH
   name: "Shopee"
-- network_ids: 
+- network_ids:
     - "9182087924" # PH
     - "WJTYVIYBYQOXOIH" # SG
   name: "Lazada"
