@@ -96,7 +96,7 @@
   name: OpenAI
 - network_ids: ["PL7WUQLGJ9RI3YX"]
   name: Namecheap
-- network_ids: ["000445487534999"]
+- network_ids: ["000445487534999", "000767200331886"]
   name: VistaPrint
 - network_ids: ["420429000208822"]
   name: eBay
