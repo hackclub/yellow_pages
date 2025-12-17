@@ -142,7 +142,7 @@
   name: Wix.com
 - network_ids: ["112127000108778"]
   name: Apple
-- network_ids: ["196794000194591"]
+- network_ids: ["196794000194591", "479338001271673"]
   name: Mailchimp
 - network_ids: ["899000000345346"]
   name: FIRST
