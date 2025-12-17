@@ -105,7 +105,10 @@
   name: Comcast
 - network_ids: ["84870007600474"]
   name: McMaster-Carr
-- network_ids: ["1VKWOGBF44BU45L", "000445488848992"]
+- network_ids:
+    - "1VKWOGBF44BU45L"
+    - "000445488848992"
+    - "1VKWOGBF44BUCIT"
   name: DoorDash
 - network_ids: ["345002124880", "345856909881"]
   name: Costco Wholesale
