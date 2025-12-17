@@ -443,3 +443,5 @@
   name: SendCutSend
 - network_ids: ["4445025992545"]
   name: Vultr
+- network_ids: ["420429000200209"]
+  name: Spotify
