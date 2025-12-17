@@ -410,3 +410,5 @@
   name: "LCSC"
 - network_ids: ["420429000204094"]
   name: "Steam"
+- network_ids: ["000526450917889"]
+  name: "Waymo"
