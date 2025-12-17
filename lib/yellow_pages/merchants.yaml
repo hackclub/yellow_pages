@@ -422,3 +422,5 @@
   name: "Jukebox"
 - network_ids: ["TDBTRIMXI14FMHY"]
   name: "Slack"
+- network_ids: ["SJUICQZSXRRIIQQ"]
+  name: "OpenRouter"
