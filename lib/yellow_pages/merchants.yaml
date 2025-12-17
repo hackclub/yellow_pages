@@ -311,7 +311,7 @@
   name: "Allianz"
 - network_ids: ["671070055637909", "671070900374736"]
   name: "The Home Depot"
-- network_ids: ["06674441729MDF1", "06281651157MDF1"]
+- network_ids: ["06674441729MDF1", "06281651157MDF1", "06281652242MDF1"]
   name: "McDonald's"
 - network_ids: ["520334509055539"]
   name: "British Airways"
