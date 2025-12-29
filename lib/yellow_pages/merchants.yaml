@@ -472,3 +472,7 @@
   name: LinkedIn
 - network_ids: ["STPQHIHOZM5DB0Z"]
   name: REV Robotics
+- network_ids: 
+    - "2CTMSCNGWMR1G4C" # Canada
+    - "YIUDJ0O4KR2J77T" # USA
+  name: "Ubiquiti"
