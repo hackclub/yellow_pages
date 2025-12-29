@@ -390,3 +390,7 @@
     - "9182087924" # PH
     - "WJTYVIYBYQOXOIH" # SG
   name: "Lazada"
+- network_ids: 
+    - "2CTMSCNGWMR1G4C" # Canada
+    - "YIUDJ0O4KR2J77T" # USA
+  name: "Ubiquiti"
