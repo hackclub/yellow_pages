@@ -17,8 +17,16 @@
     - "WSWPNP5AVX9IHNV"
     - "701198"
     - "AMAZON"
+    - "H5EBFR3YGUUZBLL"
+    - "5234080009"
+    - "JKBR1MPGTUTQ6LP"
+    - "606425000762203"
+    - "M3ONFPHDXOBTTFI"
+    - "160146000762203"
+    - "5234137007"
+    - "XDYVYRITSMNQZBD"
   name: Amazon
-- network_ids: ["470000087081873"]
+- network_ids: ["470000087081873", "AMONCYBS", "14CPM0000001975"]
   name: "Amazon Pay"
 - network_ids:
     - "000445197950998"
@@ -26,6 +34,10 @@
     - "020434184"
     - "0030211548260"
     - "Q5UHZZSOXVRKHQF"
+    - "000767200639882"
+    - "479631000200010"
+    - "C1CQJQ4QOVTU2CN"
+    - "0030211536844"
   name: Uber
 - network_ids: ["000174030072998"]
   name: "PayPal Personal"
@@ -34,11 +46,11 @@
 #  name: "Square"
 - network_ids: ["T8LQCJF1R5GHLTR"]
   name: DigitalOcean
-- network_ids: ["000445515396999", "000445473801998", "000767202747881"]
+- network_ids: ["000445515396999", "000445473801998", "000767202747881", "000767200641888"]
   name: Uber Eats
 - network_ids: ["000174030076999"]
   name: "PayPal Business"
-- network_ids: ["000445532591994"]
+- network_ids: ["000445532591994", "000767211761881"]
   name: Pirate Ship
 - network_ids: ["000445385180994"]
   name: Lyft
@@ -47,6 +59,7 @@
     - "17188425"
     - "420429000211313"
     - "089062000854521"
+    - "420429000211339"
   name: Google Cloud & Domains
 - network_ids: ["420429000200589"]
   name: Facebook
@@ -101,7 +114,7 @@
   name: Comcast
 - network_ids: ["84870007600474"]
   name: McMaster-Carr
-- network_ids: ["1VKWOGBF44BU45L", "000445488848992"]
+- network_ids: ["1VKWOGBF44BU45L", "000445488848992", "1VKWOGBF44BUCIT", "000767202602888"]
   name: DoorDash
 - network_ids: ["345002124880", "345856909881"]
   name: Costco Wholesale
@@ -126,11 +139,11 @@
   name: Printful
 - network_ids: ["VHWLO7VF91VFRZF"]
   name: Webflow
-- network_ids: ["HECTREQUAUTMVVL"]
+- network_ids: ["HECTREQUAUTMVVL", "000445488352995"]
   name: Wix.com
-- network_ids: ["112127000108778"]
+- network_ids: ["112127000108778", "311204403886", "311204598883"]
   name: Apple
-- network_ids: ["196794000194591"]
+- network_ids: ["196794000194591", "479338001271673"]
   name: Mailchimp
 - network_ids: ["899000000345346"]
   name: FIRST
@@ -139,7 +152,7 @@
   name: GoodHire
 - network_ids: ["395700028300"]
   name: GoDaddy
-- network_ids: ["420429000206339", "420429000203260"]
+- network_ids: ["420429000206339", "420429000203260", "401846000385272"]
   name: AliExpress
 - network_ids: ["717074000713081","322143000713081","328953000713081"]
   name: DigiKey
@@ -177,7 +190,7 @@
 - network_ids: ["000341163970880"]
   name: JetBlue
 - network_ids: ["394989000256686"]
-- network_ids: ["345160240882", "009100000003306"]
+- network_ids: ["345160240882", "009100000003306", "009100000000199", "009100000003264"]
   name: Target
 - network_ids: ["PGHTNMORBEERSHB"]
   name: Twilio SendGrid
@@ -222,11 +235,11 @@
 - network_ids: ["012504000111695"]
   name: Lowe's
 - network_ids:
-    ["4445023503995", "4445022894923", "4445023718254", "4445023607143", "4445060804184"]
+    ["4445023503995", "4445022894923", "4445023718254", "4445023607143", "4445060804184", "4445023835264"]
   name: USPS
 - network_ids: ["000445472871992"]
   name: Vex Robotics
-- network_ids: ["000445204769993"]
+- network_ids: ["000445204769993", "000767201357880"]
   name: Dialpad
 - network_ids: ["6VQMY6JIV5D8VOU"]
   name: Calendly
@@ -268,15 +281,15 @@
       "493139000457352",
     ]
   name: "Exxon Mobil"
-- network_ids: ["062428000005881"]
+- network_ids: ["062428000005881", "414700000005881"]
   name: Wall Street Journal
-- network_ids: ["026214000561001", "575117001412064", "4445041748236"]
+- network_ids: ["026214000561001", "575117001412064", "4445041748236", "637649901543100"]
   name: "Starbucks"
 - network_ids: ["000445531728993"]
   name: "Allianz"
-- network_ids: ["671070055637909", "671070900374736"]
+- network_ids: ["671070055637909", "671070900374736", "671070900374574"]
   name: "The Home Depot"
-- network_ids: ["06674441729MDF1", "06281651157MDF1"]
+- network_ids: ["06674441729MDF1", "06281651157MDF1", "06281652242MDF1"]
   name: "McDonald's"
 - network_ids: ["520334509055539"]
   name: "British Airways"
@@ -292,7 +305,7 @@
   name: "Raspberry Pi"
 # - network_ids: ["395709270216"]
 #   Names are prefixed with "PY *". Applies to multiple merchants including the Generator
-- network_ids: ["2100010008", "03-9508471480"]
+- network_ids: ["2100010008", "03-9508471480", "03-9508471472"]
   name: "Delta Airlines"
 - network_ids: ["5IR2QXJCAREIWRD"]
   name: "Zapier"
@@ -312,7 +325,7 @@
   name: "Emirates"
 - network_ids: ["470282000467566"]
   name: "In-N-Out"
-- network_ids: ["650000004794015"]
+- network_ids: ["650000004794015", "650000004769744"]
   name: "7-Eleven"
 - network_ids: ["000844026759887", "000844027422881", "000844033703886"]
   name: "MBTA"
@@ -328,7 +341,7 @@
   name: "X"
 - network_ids: ["OAUGYWS8QLWTF2J"]
   name: "Contabo"
-- network_ids: ["QB8WWWTJDF1AAOO"]
+- network_ids: ["QB8WWWTJDF1AAOO", "2FVN4Y0MXF4882E", "IMISK0PQGVKOMZJ"]
   name: "Bambu Lab"
 - network_ids: ["BXPU2FTJYLKK2NG"]
   name: "Browserless"
@@ -350,7 +363,7 @@
   name: "Olive Garden"
 - network_ids: ["8TSMJLH3DEKQVVL"]
   name: "Flipper"
-- network_ids: ["582087000392222"]
+- network_ids: ["582087000392222", "582086000392222"]
   name: "Green Mountain Transit"
 - network_ids: ["47986901", "71771081", "44458051", "72402031", "34398901", "71911251", "28440411"]
   name: "Post Office Counter"
@@ -394,3 +407,17 @@
     - "2CTMSCNGWMR1G4C" # Canada
     - "YIUDJ0O4KR2J77T" # USA
   name: "Ubiquiti"
+- network_ids: ["Q0RRUWQV26H30SO"]
+  name: Anthropic
+- network_ids: ["420429000204094, 498750000218926", "Q0RRUWQV26H30SO"]
+  name: Steam
+- network_ids: ["000445377882995", "000767214928883"]
+  name: Customink
+- network_ids: ["TDBTRIMXI14FMHY"]
+  name: Slack
+- network_ids: ["8MQI7NFNK0XTZ16"]
+  name: ElevenLabs
+- network_ids: ["395709390320"]
+  name: Fiverr
+- network_ids: ["QR055TQLLZPLOR0"]
+  name: Framer
