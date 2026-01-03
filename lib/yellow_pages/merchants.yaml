@@ -409,7 +409,7 @@
   name: "Ubiquiti"
 - network_ids: ["Q0RRUWQV26H30SO"]
   name: Anthropic
-- network_ids: ["420429000204094, 498750000218926", "Q0RRUWQV26H30SO"]
+- network_ids: ["420429000204094, 498750000218926"]
   name: Steam
 - network_ids: ["000445377882995", "000767214928883"]
   name: Customink
