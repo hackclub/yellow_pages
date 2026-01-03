@@ -55,7 +55,10 @@
     - "03-8036071077"
     - "000767211761881"
   name: Pirate Ship
-- network_ids: ["000445385180994"]
+- network_ids:
+    - "000445385180994"
+    - "000844212028881"
+    - "ML8VGZKUUFD4FEM"
   name: Lyft
 - network_ids:
     - "248754000103177"
@@ -77,9 +80,13 @@
   name: Shelburne Market
 - network_ids: ["000425250069993"]
   name: Presidential Service Award
-- network_ids: ["210996000015342"]
+- network_ids:
+    - "210996000015342"
+    - "210993000015342"
   name: United Airlines
-- network_ids: ["ZIOVZAH4PQAVCEI"]
+- network_ids:
+    - "ZIOVZAH4PQAVCEI"
+    - "000445601192997"
   name: Zoom
 - network_ids: ["350086000284343"]
   name: New York City MTA
@@ -114,7 +121,9 @@
   name: eBay
 - network_ids: ["000445519153990", "373583000202167", "000767202823880"]
   name: Airbnb
-- network_ids: ["QLKVWDFJOCS7CNQ"]
+- network_ids:
+    - "QLKVWDFJOCS7CNQ"
+    - "EB6ZUJWIJUWNM6H"
   name: Shelburne Country Store
 - network_ids: ["4445100183251", "4445100153908", "4445100115261", "4445100027052"]
   name: Walgreens
@@ -132,7 +141,9 @@
   name: DoorDash
 - network_ids: ["345002124880", "345856909881", "131730000127761"]
   name: Costco Wholesale
-- network_ids: ["000445201721997"]
+- network_ids:
+    - "000445201721997"
+    - "JYTT05N3GZQUC8J"
   name: Heroku
 - network_ids: ["VHEA9NFEH64WHY7"] # This is stripe, but only some HCB transactions
 - network_ids: ["536385460049638", "9M4YMRJXF76Y6TD"]
@@ -159,7 +170,15 @@
     - "420429000201835"
     - "000445488352995"
   name: Wix.com
-- network_ids: ["112127000108778", "311204403886", "311204598883"]
+- network_ids:
+    - "112127000108778"
+    - "311204403886"
+    - "311204598883"
+    - "112137000108778"
+    - "337190000108778"
+    - "416794000031449"
+    - "89051742"
+    - "112139000108778"
   name: Apple
 - network_ids: ["196794000194591", "479338001271673"]
   name: Mailchimp
@@ -186,7 +205,9 @@
   name: Vermont Gas
 - network_ids: ["325136000756346"]
   name: Intuit
-- network_ids: ["4445034776278"]
+- network_ids:
+    - "4445034776278"
+    - "324263000956037"
   name: Endicia
 - network_ids: ["UWCO0DIVT3OAA9R"]
   name: Shopify
@@ -203,8 +224,6 @@
   name: Mastercard Gift Card
 - network_ids: ["38RR00000519133"]
   name: Swiggy
-- network_ids: ["EB6ZUJWIJUWNM6H"]
-  name: Shelburne Country Store
 - network_ids: ["000341163970880"]
   name: JetBlue
 - network_ids: ["394989000256686"]
@@ -221,13 +240,6 @@
   name: Best Buy
 - network_ids: ["968453000956037"]
   name: Stamps.com
-- network_ids:
-    - "112137000108778"
-    - "337190000108778"
-    - "416794000031449"
-    - "89051742"
-    - "112139000108778"
-  name: Apple
 - network_ids: ["4445024897746"]
   name: Clipper
 - network_ids: ["452322000053360"]
@@ -244,19 +256,14 @@
   name: Printify
 - network_ids: ["000958206811886"]
   name: Casella Waste Systems
-- network_ids: ["210993000015342"]
-  name: United Airlines
 - network_ids: ["324969000322864", "03-8003219386"]
   name: Air Canada
-- network_ids: ["205953000182343"]
+- network_ids:
+    - "205953000182343"
+    - "425586000423740"
   name: Southwest Airlines
 - network_ids: ["425545000167955"]
   name: Hannaford
-- network_ids: ["AH6WGZF3Y8QM8BB"]
-- network_ids: ["000445601192997"]
-  name: Zoom
-- network_ids: ["JYTT05N3GZQUC8J"]
-  name: Heroku
 - network_ids: ["POLKQATDE4V1NYX"]
   name: Figma
 - network_ids: ["012504000111695"]
@@ -291,8 +298,6 @@
 - network_ids: ["BHF6E5ONJSHHWZT"]
   name: 1Password
 - network_ids: ["000225149957998"]
-- network_ids: ["000844212028881", "ML8VGZKUUFD4FEM"]
-  name: Lyft
 - network_ids: ["4445022836221"]
   name: USPS Click-N-Ship
 - network_ids: ["372048809886", "372048805884", "000372048820883", "03-8029712158"]
@@ -329,8 +334,6 @@
   name: "Ryanair"
 - network_ids: ["72030468048565"]
   name: "Kiwi"
-- network_ids: ["425586000423740"]
-  name: "Southwest Airlines"
 - network_ids: ["000526454596887"]
   name: "Raspberry Pi"
 # - network_ids: ["395709270216"]
@@ -343,8 +346,6 @@
   name: "Paysend"
 - network_ids: ["612010401638099"]
   name: "Burger King"
-- network_ids: ["324263000956037"]
-  name: "Endicia"
 - network_ids: ["R2P5HXNOM5CLTX4"]
   name: "Appsignal"
 - network_ids: ["479338001326857"]
@@ -437,15 +438,16 @@
     - "9182087924" # PH
     - "WJTYVIYBYQOXOIH" # SG
   name: "Lazada"
-- network_ids: ["Q0RRUWQV26H30SO"]
-  name: "Anthropic"
 - network_ids: ["526805"]
   name: "Talabat"
 - network_ids: ["MZJ96QO0A3SN4BD"]
   name: "Cursor"
 - network_ids: ["453022000202588"]
   name: "LCSC"
-- network_ids: ["420429000204094", "395707494990"]
+- network_ids:
+    - "420429000204094"
+    - "395707494990"
+    - "498750000218926"
   name: "Steam"
 - network_ids: ["000526450917889"]
   name: "Waymo"
@@ -487,12 +489,8 @@
   name: "Ubiquiti"
 - network_ids: ["Q0RRUWQV26H30SO"]
   name: Anthropic
-- network_ids: ["420429000204094, 498750000218926"]
-  name: Steam
 - network_ids: ["000445377882995", "000767214928883"]
   name: CustomInk
-- network_ids: ["TDBTRIMXI14FMHY"]
-  name: Slack
 - network_ids: ["8MQI7NFNK0XTZ16"]
   name: ElevenLabs
 - network_ids: ["395709390320"]
