@@ -416,6 +416,8 @@
     - "380616000030002" # poland
     - "IKEA3381362" # ikea india
     - "0030204391090" # canada
+    - "27080852" # ikea sheffield
+    - "2101655362" # ikea eu
   name: "Ikea"
 - network_ids: ["345020787882"]
   name: "Alaska Airlines"
